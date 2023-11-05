@@ -16,6 +16,12 @@ class PlanetPage extends StatelessWidget {
       orbitVelocities: 0.001,
       remoteness: 0,
     ),
+    PlanetModel(
+      radius: 10,
+      color: Colors.green,
+      orbitVelocities: 10,
+      remoteness: 100,
+    ),
   ];
   @override
   Widget build(BuildContext context) {
